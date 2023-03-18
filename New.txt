@@ -1,0 +1,9 @@
+Spark is based on Resilient Distributed Datasets (RDD) - Make sure you know how to use them
+
+RDDs, or Resilient Distributed Datasets are core objects in Apache Spark. They are a primary abstraction Spark uses for fast and efficient MapReduce operations. As the name suggests, these datasets are resilient (fault-tolerant) and distributed (can be spread out on different nodes of a cluster).
+
+There's a lot to learn when it comes to RDDs in Spark that I don't plan to cover today. If you're interested in the theory and inner-workings, please refer to this introductory article by XenonStack.
+
+So, what will we do today? We'll tackle Spark RDDs hands-on. We'll write an entire Spark script that processes values of the Iris dataset. To be more precise, we'll calculate the averages of the sepal length attribute among different species. It feels like buying a race car for weekly grocery shopping, but you'll learn a lot in the process.
+
+If you need a reference for installing Apache Spark in Python, look no further:
